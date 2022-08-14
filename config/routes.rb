@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   get("/directors", { :controller => "directors", :action => "index" })
 
+  get("/actors", { :controller => "actors", :action => "index" })
+
+  get("/movies", { :controller => "movies", :action => "index" })
 end
