@@ -6,4 +6,12 @@ class DirectorsController < ApplicationController
     render({ :template => "director_templates/index.html.erb" })
   end
 
+  def wisest
+    render({ :template => "director_templates/eldest.html.erb" })
+  end
+
+  def newest
+    render({ :template => "director_templates/youngest.html.erb" })
+  end
+
 end  
