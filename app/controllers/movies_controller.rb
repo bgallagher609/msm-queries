@@ -5,4 +5,7 @@ class MoviesController < ApplicationController
     render({ :template => "movie_templates/index.html.erb" })
   end
 
+  
+
+
 end  
